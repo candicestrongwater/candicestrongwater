@@ -6,7 +6,7 @@
 /* CATCH ALL */
 
 html {
-  font-size: 25px;
+  font-size: 21px;
 }
 
 body {
@@ -111,7 +111,7 @@ a , .project-text-link span {
   color: black;
   font-family: 'Arial Monospaced MT' , arial, helvetica, sans-serif;
   text-transform: uppercase;
-  height: 920px;
+  height: 950px;
   display: none;
   z-index: 99999;
   position: fixed;
