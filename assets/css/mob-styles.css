@@ -39,15 +39,15 @@ and (max-width : 1050px) {
 and (max-width : 940px) {
 
 body {
-  font-size: 18px;
+  font-size: 17px;
 }
 
-.nav-link , .project-title , .about-item--left , .text-link--external {
-  font-size: .6rem;
+.nav-link , .project-title , .about-item--left {
+  font-size: .65rem;
 }
 
 .image-caption__container {
-  font-size: .45rem;
+  font-size: .5rem;
 }
 
 }
@@ -61,6 +61,10 @@ and (max-width : 840px) {
 
 @media only screen
 and (max-width : 767px) {
+
+  .image-caption__container {
+    width: 100%;
+  }
 
 }
 
@@ -88,6 +92,32 @@ and (orientation : portrait) {
 @media only screen
 and (max-width : 645px) {
 
+/* TURN OFF CURSOR IMAGE */
+.hover {
+  display: none;
+}
+
+/* HEADER STACKED */
+
+.header-content__container {
+  flex-direction: column;
+}
+
+.flex-item--right {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.header-item--right .nav-link {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+/* FULL WIDTH SQUARE IMAGES */
+
+.project__image--square {
+  width: 100%;
+}
 
 }
 
