@@ -37,12 +37,23 @@ a , .project-text-link span {
 
 .text-link--external, .caption-link--external {
   text-decoration: underline;
-  /* text-transform: uppercase; */
 }
 
-.project-text-link span:hover , .nav-link:hover , .text-link--external:hover, caption-link--external:hover {
+.project-text-link--exhibitions span:hover , .nav-link:hover , .text-link--external:hover, .caption-link--external:hover {
   color: red !important;
   cursor: pointer;
+}
+
+.project-text-link--programs:hover {
+  color: #006aff !important;
+}
+
+.project-text-link--books:hover {
+  color: #7b00ff !important;
+}
+
+.project-text-link--press:hover {
+
 }
 
 .project-text-link__container , .project-text__container {
