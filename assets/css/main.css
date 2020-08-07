@@ -29,6 +29,10 @@ body {
   text-align: center;
 }
 
+.program-title {
+  text-transform: uppercase;
+}
+
 a , .project-text-link span {
   text-decoration: none;
   color: white;
@@ -39,13 +43,13 @@ a , .project-text-link span {
   text-decoration: underline;
 }
 
-.project-text-link--exhibitions span:hover , .nav-link:hover , .text-link--external:hover, .caption-link--external:hover {
+.project-text-link--exhibitions span:hover , .nav-link:hover , .title-text-link--external:hover , .text-link--external:hover, .caption-link--external:hover {
   color: red !important;
   cursor: pointer;
 }
 
 .project-text-link--programs:hover {
-  color: #006aff !important;
+  color: #03befc !important;
 }
 
 .project-text-link--books:hover {
@@ -53,7 +57,7 @@ a , .project-text-link span {
 }
 
 .project-text-link--press:hover {
-
+  color: #00ff44 !important;
 }
 
 .project-text-link__container , .project-text__container {
@@ -167,7 +171,7 @@ a , .project-text-link span {
   margin-bottom: 20px;
 }
 
-.project__image--square {
+.project__image--half {
   width: 50%;
   text-align: center;
   display: block;
@@ -186,6 +190,11 @@ a , .project-text-link span {
 .hover__image--landscape {
   width: 300px;
   height: 200px;
+}
+
+.hover__image--landscape2 {
+  width: 300px;
+  height: 250px;
 }
 
 .hover__image--portrait {

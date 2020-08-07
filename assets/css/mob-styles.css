@@ -113,9 +113,9 @@ and (max-width : 645px) {
   margin-right: 20px;
 }
 
-/* FULL WIDTH SQUARE IMAGES */
+/* FULL WIDTH SQUARE/NARROW IMAGES */
 
-.project__image--square {
+.project__image--half {
   width: 100%;
 }
 

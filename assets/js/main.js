@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+  if(window.location !== "index.html"){
+        $('.popup__container--about').addClass('showme');
+  }
 
 
   class Header extends HTMLElement {
@@ -14,8 +17,8 @@ connectedCallback() {
       </div>
 
       <div class="flex-item--right header-item--right">
-        <a class="nav-link nav-link--exhibitions" href="./exhibitions.html">Exhibitions, Programs, Books</a>
-        <a class="nav-link nav-link--programs" href="./writing.html">Writing</a>
+        <a class="nav-link nav-link--exhibitions" href="./exhibitions.html">Exhibitions & Programs</a>
+        <!-- <a class="nav-link nav-link--programs" href="./writing.html">Writing</a> -->
         <span class="nav-link nav-link--about">About</span>
       </div>
 
@@ -23,14 +26,18 @@ connectedCallback() {
 
     <div class="popup__container--about">
       <div class="flex-item--left about-item--left">
-         I am a New York-based curator and cultural producer. I hold a BA in Film Theory & Criticism from Muhlenberg College and am currently an MA candidate in Curatorial Studies at Bard.
+         I am an independent curator and cultural producer based in New York. The work included here is a selection of projects spanning exhibitions, programs, oral histories, artist publications, radio broadcasts, and site-specific installations.
          <br><br>
-         My current research examines the design, dissemination, and cultural implications of educational technologies. I am also the NYPL’s Reserve Film and Video Collection Fellow for 2020 focusing on the history of the Donnell Media Center (1955–2008).
+         I hold a BA in Film Theory & Criticism from Muhlenberg College and am a MA candidate at the Center for Curatorial Studies at Bard College (2021). My current research traces a media history of educational technologies, focusing on the classroom setting in the U.S. from the 1950's to today.
+         <br><br>
+         I am also the Reserve Film and Video Collection Fellow (2020–21) at the New York Public Library, focusing on the history of the Donnell Media Center (1955–2008).
+         <br><br>
+         Website accessibility: This site is in the process of featuring image descriptions.
+         <br><br>
 
-        <br><br>
-        <a class="nav-link" href="mailto:strongwater.candice@gmail.com" target="_blank">EMAIL</a>
-        <br>
-        <a class="nav-link" href="https://www.instagram.com/cancode/?hl=en" target="_blank">INSTAGRAM</a>
+         <a class="nav-link" href="mailto:strongwater.candice@gmail.com" target="_blank">EMAIL</a>
+         <br>
+         <a class="nav-link" href="https://www.instagram.com/cancode/?hl=en" target="_blank">INSTAGRAM</a>
       </div>
 
       <div class="flex-item--right about-item--right">
