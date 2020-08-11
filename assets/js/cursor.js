@@ -207,7 +207,7 @@ $(document).ready(function() {
     $('.bender-1').mousemove(function(e) {
         $bender1.stop(1, 1).fadeIn();
         $('.hover__image--bender-1').offset({
-            top: 220 + e.pageY - $bender1.outerHeight(),
+            top: -10 + e.pageY - $bender1.outerHeight(),
             left: 180 + e.pageX - ($bender1.outerWidth()/2)
         });
     }).mouseleave(function() {
@@ -219,7 +219,7 @@ $(document).ready(function() {
     $('.bender-2').mousemove(function(e) {
         $bender2.stop(1, 1).fadeIn();
         $('.hover__image--bender-2').offset({
-            top: 220 + e.pageY - $bender2.outerHeight(),
+            top: -10 + e.pageY - $bender2.outerHeight(),
             left: 180 + e.pageX - ($bender2.outerWidth()/2)
         });
     }).mouseleave(function() {
@@ -231,7 +231,7 @@ $(document).ready(function() {
     $('.bender-3').mousemove(function(e) {
         $bender3.stop(1, 1).fadeIn();
         $('.hover__image--bender-3').offset({
-            top: 220 + e.pageY - $bender3.outerHeight(),
+            top: -10 + e.pageY - $bender3.outerHeight(),
             left: 180 + e.pageX - ($bender3.outerWidth()/2)
         });
     }).mouseleave(function() {
@@ -243,7 +243,7 @@ $(document).ready(function() {
     $('.bender-4').mousemove(function(e) {
         $bender4.stop(1, 1).fadeIn();
         $('.hover__image--bender-4').offset({
-            top: 220 + e.pageY - $bender4.outerHeight(),
+            top: -10 + e.pageY - $bender4.outerHeight(),
             left: 180 + e.pageX - ($bender4.outerWidth()/2)
         });
     }).mouseleave(function() {
@@ -258,7 +258,7 @@ $(document).ready(function() {
     $('.ramm-1').mousemove(function(e) {
         $ramm1.stop(1, 1).fadeIn();
         $('.hover__image--ramm-1').offset({
-            top: 220 + e.pageY - $ramm1.outerHeight(),
+            top: -10 + e.pageY - $ramm1.outerHeight(),
             left: 180 + e.pageX - ($ramm1.outerWidth()/2)
         });
     }).mouseleave(function() {
@@ -270,39 +270,51 @@ $(document).ready(function() {
     $('.ramm-2').mousemove(function(e) {
         $ramm2.stop(1, 1).fadeIn();
         $('.hover__image--ramm-2').offset({
-            top: 220 + e.pageY - $ramm2.outerHeight(),
+            top: -10 + e.pageY - $ramm2.outerHeight(),
             left: 180 + e.pageX - ($ramm2.outerWidth()/2)
         });
     }).mouseleave(function() {
         $ramm2.hide();
     });
 
-
-
-    /* SHOW CURSOR IMAGE ON HOVER - CLOUDS*/
-
-    var $clouds1 = $('.hover__image--clouds-1');
-    $clouds1.hide();
-    $('.clouds-1').mousemove(function(e) {
-        $clouds1.stop(1, 1).fadeIn();
-        $('.hover__image--clouds-1').offset({
-            top: -10 + e.pageY - $clouds1.outerHeight(),
-            left: 130 + e.pageX - ($clouds1.outerWidth()/2)
+    var $ramm3 = $('.hover__image--ramm-3');
+    $ramm3.hide();
+    $('.ramm-3').mousemove(function(e) {
+        $ramm3.stop(1, 1).fadeIn();
+        $('.hover__image--ramm-3').offset({
+            top: -10 + e.pageY - $ramm3.outerHeight(),
+            left: 180 + e.pageX - ($ramm3.outerWidth()/2)
         });
     }).mouseleave(function() {
-        $clouds1.hide();
+        $ramm3.hide();
     });
 
-    var $clouds2 = $('.hover__image--clouds-2');
-    $clouds2.hide();
-    $('.clouds-2').mousemove(function(e) {
-        $clouds2.stop(1, 1).fadeIn();
-        $('.hover__image--clouds-2').offset({
-            top: -10 + e.pageY - $clouds2.outerHeight(),
-            left: 180 + e.pageX - ($clouds2.outerWidth()/2)
+
+
+    /* SHOW CURSOR IMAGE ON HOVER - cloud*/
+
+    var $cloud1 = $('.hover__image--cloud-1');
+    $cloud1.hide();
+    $('.cloud-1').mousemove(function(e) {
+        $cloud1.stop(1, 1).fadeIn();
+        $('.hover__image--cloud-1').offset({
+            top: -10 + e.pageY - $cloud1.outerHeight(),
+            left: 130 + e.pageX - ($cloud1.outerWidth()/2)
         });
     }).mouseleave(function() {
-        $clouds2.hide();
+        $cloud1.hide();
+    });
+
+    var $cloud2 = $('.hover__image--cloud-2');
+    $cloud2.hide();
+    $('.cloud-2').mousemove(function(e) {
+        $cloud2.stop(1, 1).fadeIn();
+        $('.hover__image--cloud-2').offset({
+            top: -10 + e.pageY - $cloud2.outerHeight(),
+            left: 180 + e.pageX - ($cloud2.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $cloud2.hide();
     });
 
 
@@ -374,6 +386,44 @@ $(document).ready(function() {
         $total1.hide();
     });
 
+    /* SHOW CURSOR IMAGE ON HOVER - REMIX*/
+
+    var $remix1 = $('.hover__image--remix-1');
+    $remix1.hide();
+    $('.remix-1').mousemove(function(e) {
+        $remix1.stop(1, 1).fadeIn();
+        $('.hover__image--remix-1').offset({
+            top: -10 + e.pageY - $remix1.outerHeight(),
+            left: 180 + e.pageX - ($remix1.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $remix1.hide();
+    });
+
+    var $remix2 = $('.hover__image--remix-2');
+    $remix2.hide();
+    $('.remix-2').mousemove(function(e) {
+        $remix2.stop(1, 1).fadeIn();
+        $('.hover__image--remix-2').offset({
+            top: -10 + e.pageY - $remix2.outerHeight(),
+            left: 180 + e.pageX - ($remix2.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $remix2.hide();
+    });
+
+    var $remix3 = $('.hover__image--remix-3');
+    $remix3.hide();
+    $('.remix-3').mousemove(function(e) {
+        $remix3.stop(1, 1).fadeIn();
+        $('.hover__image--remix-3').offset({
+            top: -10 + e.pageY - $remix3.outerHeight(),
+            left: 180 + e.pageX - ($remix3.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $remix3.hide();
+    });
+
 
     /* SHOW CURSOR IMAGE ON HOVER - LONGLY*/
 
@@ -399,6 +449,21 @@ $(document).ready(function() {
         });
     }).mouseleave(function() {
         $longly2.hide();
+    });
+
+
+    /* SHOW CURSOR IMAGE ON HOVER - BIODIP*/
+
+    var $biodip1 = $('.hover__image--bio-dip-1');
+    $biodip1.hide();
+    $('.bio-dip-1').mousemove(function(e) {
+        $biodip1.stop(1, 1).fadeIn();
+        $('.hover__image--bio-dip-1').offset({
+            top: -10 + e.pageY - $biodip1.outerHeight(),
+            left: 180 + e.pageX - ($biodip1.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $biodip1.hide();
     });
 
 

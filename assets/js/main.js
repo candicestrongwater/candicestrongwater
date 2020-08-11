@@ -13,12 +13,12 @@ connectedCallback() {
     <div class="header-content__container">
 
       <div class="flex-item--left header-item--left">
-        <a class="nav-link nav-link--home" href="../index.html">Candice Strongwater</a>
+        <span class="nav-link nav-link--home">Candice Strongwater</span>
       </div>
 
       <div class="flex-item--right header-item--right">
         <a class="nav-link nav-link--exhibitions" href="./exhibitions.html">Exhibitions & Programs</a>
-        <!-- <a class="nav-link nav-link--programs" href="./writing.html">Writing</a> -->
+        <a class="nav-link nav-link--programs" href="./writing.html">Writing</a>
         <span class="nav-link nav-link--about">About</span>
       </div>
 
@@ -26,6 +26,7 @@ connectedCallback() {
 
     <div class="popup__container--about">
       <div class="flex-item--left about-item--left">
+         <span class="about-text">
          I am an independent curator and cultural producer based in New York. The work included here is a selection of projects spanning exhibitions, programs, oral histories, artist publications, radio broadcasts, and site-specific installations.
          <br><br>
          I hold a BA in Film Theory & Criticism from Muhlenberg College and am a MA candidate at the Center for Curatorial Studies at Bard College (2021). My current research traces a media history of educational technologies, focusing on the classroom setting in the U.S. from the 1950's to today.
@@ -34,6 +35,7 @@ connectedCallback() {
          <br><br>
          Website accessibility: This site is in the process of featuring image descriptions.
          <br><br>
+         </span>
 
          <a class="nav-link" href="mailto:strongwater.candice@gmail.com" target="_blank">EMAIL</a>
          <br>

@@ -48,6 +48,15 @@ a , .project-text-link span {
   cursor: pointer;
 }
 
+.nav-link--home:hover {
+  color: white !important;
+  cursor: default;
+}
+
+.project-text-link--writing:hover {
+  color: #e100ff !important;
+}
+
 .project-text-link--programs:hover {
   color: #03befc !important;
 }
@@ -136,11 +145,14 @@ a , .project-text-link span {
   background-color: white;
   color: black;
   font-family: 'Arial Monospaced MT' , arial, helvetica, sans-serif;
-  text-transform: uppercase;
   height: 950px;
   display: none;
   z-index: 99999;
   position: fixed;
+}
+
+.about-text {
+  text-transform: initial;
 }
 
 .showme {
