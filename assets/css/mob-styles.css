@@ -42,8 +42,8 @@ body {
   font-size: 17px;
 }
 
-.nav-link , .project-title , .about-item--left {
-  font-size: .65rem;
+.nav-link , .project-title , .about-item--left , .about-text-lc {
+  font-size: .65rem !important;
 }
 
 .image-caption__container {
@@ -101,6 +101,18 @@ and (max-width : 645px) {
 
 .header-content__container {
   flex-direction: column;
+}
+
+.popup__container--about {
+  flex-direction: column-reverse;
+}
+
+.about-item--right {
+  flex: 0 0 5%;
+}
+
+.about-item--left {
+  flex: 0 0 95%;
 }
 
 .flex-item--right {
