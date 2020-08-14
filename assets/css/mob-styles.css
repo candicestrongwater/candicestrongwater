@@ -94,7 +94,7 @@ and (max-width : 645px) {
 
 /* TURN OFF CURSOR IMAGE */
 .hover {
-  display: none;
+  display: none !important;
 }
 
 /* HEADER STACKED */
