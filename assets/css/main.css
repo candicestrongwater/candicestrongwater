@@ -167,6 +167,10 @@ a , .project-text-link span {
   display: none;
 }
 
+.bg-color-change {
+  background-color: white;
+}
+
 
 /* MAIN CONTENT - EXHIBITIONS */
 
