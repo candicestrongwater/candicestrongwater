@@ -27,7 +27,7 @@ connectedCallback() {
     <div class="popup__container--about">
       <div class="flex-item--left about-item--left">
          <span class="about-text-lc">
-         I am an independent curator and cultural producer. The work included here is a selection of projects spanning exhibitions, programs, oral histories, artist publications, radio broadcasts, and site-specific installations. I hold a BA in Film Theory & Criticism at Muhlenberg College and am pursuing an MA at the Center for Curatorial Studies at Bard College (2021). My current research traces a media history of educational technologies, focusing on the classroom setting in the US from the 1950s to today. I am the Reserve Film and Video Collection Fellow (2020–21) at the New York Public Library for the Performing Arts, conducting research on the history of the Donnell Media Center.
+         I am an independent curator and cultural producer. The work included here is a selection of projects spanning exhibitions, programs, oral histories, artist publications, radio broadcasts, and site-specific installations. I hold a BA in Film Theory & Criticism at Muhlenberg College and am pursuing an MA at the Center for Curatorial Studies at Bard College (2021).
          <br><br>
          Website accessibility: This site is in the process of featuring image descriptions.
          </span>
