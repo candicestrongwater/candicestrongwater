@@ -180,6 +180,10 @@ a , .project-text-link span {
   z-index: -1
 }
 
+.mobile {
+  display: none;
+}
+
 .main.flex-item--left {
   flex: 0 0 63%;
 }
@@ -225,4 +229,16 @@ a , .project-text-link span {
 .hover__image--square {
   width: 250px;
   height: 250px;
+}
+
+
+/*HOMEPAGE - IMAGES*/
+.l-img1 {
+  left: 45.5%;
+  top: 70%;
+}
+
+.r-img1 {
+  left: 52%;
+  top: 80%;
 }

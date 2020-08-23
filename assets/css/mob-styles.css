@@ -107,6 +107,14 @@ and (max-width : 645px) {
   flex-direction: column-reverse;
 }
 
+.not-mobile {
+  display: none;
+}
+
+.mobile {
+  display: flex;
+}
+
 .about-item--right {
   flex: 0 0 5%;
 }
@@ -117,13 +125,15 @@ and (max-width : 645px) {
 
 .flex-item--right {
   text-align: left;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .header-item--right .nav-link {
   margin-left: 0px;
-  margin-right: 20px;
+  display: block;
 }
+
+
 
 /* FULL WIDTH SQUARE/NARROW IMAGES */
 
