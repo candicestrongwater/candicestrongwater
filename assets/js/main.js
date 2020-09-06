@@ -18,7 +18,7 @@ connectedCallback() {
 
       <div class="flex-item--right header-item--right">
         <a class="nav-link nav-link--exhibitions" href="./index.html">Exhibitions & Programs</a>
-        <a class="nav-link nav-link--programs" href="./writing.html">Writing</a>
+        <!-- <a class="nav-link nav-link--programs" href="./writing.html">Writing</a> -->
         <span class="nav-link nav-link--about">About</span>
       </div>
 
@@ -34,7 +34,7 @@ connectedCallback() {
 
          <br><br>
 
-         <a class="nav-link" href="mailto:strongwater.candice@gmail.com" target="_blank">EMAIL</a><span class="about-text-lc"> *Feel free to message me</span>
+         <a class="nav-link" href="mailto:strongwater.candice@gmail.com" target="_blank">EMAIL</a>
          <br>
          <a class="nav-link" href="https://www.instagram.com/cancode/?hl=en" target="_blank">INSTAGRAM</a>
 

@@ -233,12 +233,36 @@ a , .project-text-link span {
 
 
 /*HOMEPAGE - IMAGES*/
+#home-img__container {
+	width: 99%;
+	height: 80%;
+	position: fixed;
+  z-index: -1;
+}
+
+
+.home-img {
+  position:relative;
+  cursor: pointer;
+  max-width: 50%;
+}
+
 .l-img1 {
-  left: 45.5%;
-  top: 70%;
+  left: 25.5%;
+  top: 20%;
 }
 
 .r-img1 {
   left: 52%;
+  top: 80%;
+}
+
+.l-img2 {
+  left: 15.5%;
+  top: 20%;
+}
+
+.r-img2 {
+  left: 80%;
   top: 80%;
 }
