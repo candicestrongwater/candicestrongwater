@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* CATCH ALL */
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: baskerville , times, serif;
+  line-height: 1.2;
+}
+
+.body-ital {
+  font-style: italic;
+  letter-spacing: .5px;
+}
+
+.caption-ital {
+  font-style: italic;
+}
+
+.body-center {
+  text-align: center;
+}
+
+.program-title {
+  text-transform: uppercase;
+}
+
+a , .project-text-link span {
+  text-decoration: none;
+  color: white;
+  cursor: pointer !important;
+}
+
+.text-link--external, .caption-link--external {
+  text-decoration: underline;
+}
+
+.project-text-link--exhibitions span:hover , .nav-link:hover , .title-text-link--external:hover , .text-link--external:hover, .caption-link--external:hover {
+  color: red !important;
+  cursor: pointer;
+}
+
+.nav-link--home:hover {
+  color: white !important;
+  cursor: default;
+}
+
+.nav-link , .project-title , .about-item--left {
+  font-family: arial, helvetica, sans-serif;
+  text-transform: uppercase !important;
+  font-size: .85rem;
+  line-height: 1.4;
+}
+
+.header-content__container , .popup__container--about , .main-content__container {
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* HEADER */
+
+.header-content__container {
+  background-color: black;
+  /* border-bottom: 1.2px solid white; */
+  box-shadow: 0 0 20px 0 black;
+  position: fixed;
+}
+
+.header-item--right .nav-link {
+  margin-left: 20px;
+}
+
+.flex-item--left {
+  text-align: left;
+}
+
+.flex-item--right {
+  text-align: right;
+}
+
+.header-item--left {
+  flex: 0 0 25%;
+}
+
+.header-item--right {
+  flex: 0 0 75%;
+}
+
+.about-item--left {
+  flex: 0 0 65%;
+}
+
+.about-item--right {
+  flex: 0 0 35%;
+}
+
+
+.popup__container--about a , .popup__container--about span {
+  color: black;
+}
+
+.popup__container--about {
+  background-color: white;
+  color: black;
+  font-family: 'Arial Monospaced MT' , arial, helvetica, sans-serif;
+  height: 950px;
+  display: none;
+  z-index: 99999;
+  position: fixed;
+}
+
+.about-text-lc {
+  text-transform: initial;
+}
+
+.showme {
+  display: inline-flex;
+}
+
+.hideme {
+  display: none;
+}
+
+.bg-color-change {
+  background-color: white;
+}

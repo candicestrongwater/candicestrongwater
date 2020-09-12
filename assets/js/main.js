@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  if(window.location !== "index.html"){
-        $('.popup__container--about').addClass('showme');
-  }
+  // if(window.location !== "index.html"){
+  //       $('.popup__container--about').addClass('showme');
+  // }
 
 
   class Header extends HTMLElement {
@@ -13,7 +13,7 @@ connectedCallback() {
     <div class="header-content__container">
 
       <div class="flex-item--left header-item--left">
-        <span class="nav-link nav-link--home">Candice Strongwater</span>
+        <a class="nav-link nav-link--home" href="../index.html">Candice Strongwater</a>
       </div>
 
       <div class="flex-item--right header-item--right">
@@ -52,6 +52,9 @@ connectedCallback() {
 
 
 customElements.define('main-header', Header);
+
+
+
 
 
 

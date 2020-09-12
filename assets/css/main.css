@@ -48,10 +48,10 @@ a , .project-text-link span {
   cursor: pointer;
 }
 
-.nav-link--home:hover {
+/* .nav-link--home:hover {
   color: white !important;
   cursor: default;
-}
+} */
 
 .project-text-link--writing:hover {
   color: #e100ff !important;
@@ -171,6 +171,32 @@ a , .project-text-link span {
   background-color: white;
 }
 
+.index-header {
+  z-index: 100;
+  background-color: unset;
+  mix-blend-mode: difference;
+  box-shadow: unset;
+}
+
+
+/* HOME - FULL BLEED IMAGES */
+
+.home-image__container {
+  height:101vh;
+  width:101vw;
+  /* filter: blur(2px); */
+  overflow-y: scroll;
+  background-color: blue;
+}
+
+.home-image__container img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  /* margin-bottom: -1%; */
+  display: block;
+}
+
 
 /* MAIN CONTENT - EXHIBITIONS */
 
@@ -229,40 +255,4 @@ a , .project-text-link span {
 .hover__image--square {
   width: 250px;
   height: 250px;
-}
-
-
-/*HOMEPAGE - IMAGES*/
-#home-img__container {
-	width: 99%;
-	height: 80%;
-	position: fixed;
-  z-index: -1;
-}
-
-
-.home-img {
-  position:relative;
-  cursor: pointer;
-  max-width: 50%;
-}
-
-.l-img1 {
-  left: 25.5%;
-  top: 20%;
-}
-
-.r-img1 {
-  left: 52%;
-  top: 80%;
-}
-
-.l-img2 {
-  left: 15.5%;
-  top: 20%;
-}
-
-.r-img2 {
-  left: 80%;
-  top: 80%;
 }

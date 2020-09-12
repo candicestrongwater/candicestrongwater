@@ -92,6 +92,11 @@ and (orientation : portrait) {
 @media only screen
 and (max-width : 645px) {
 
+/* HOMEPAGE FIT IMAGE */
+.home-image__container img {
+  height:40%;
+}
+
 /* TURN OFF CURSOR IMAGE */
 .hover {
   display: none !important;
