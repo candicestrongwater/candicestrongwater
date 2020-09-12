@@ -186,7 +186,6 @@ a , .project-text-link span {
   width:101vw;
   /* filter: blur(2px); */
   overflow-y: scroll;
-  background-color: blue;
 }
 
 .home-image__container img {
