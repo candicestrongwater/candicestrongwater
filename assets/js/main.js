@@ -27,9 +27,9 @@ connectedCallback() {
     <div class="popup__container--about">
       <div class="flex-item--left about-item--left">
          <span class="about-text-lc">
-         I am an independent curator and cultural producer. The work included here is a selection of projects spanning exhibitions, programs, oral histories, artist publications, radio broadcasts, and site-specific installations. I hold a BA in Film Theory & Criticism at Muhlenberg College and am pursuing an MA at the Center for Curatorial Studies at Bard College (2021).
-         <br><br>
-         Website accessibility: This site is in the process of featuring image descriptions.
+           I am an independent curator and cultural producer. The work included here is a selection of projects spanning exhibitions, programs, oral histories, artist publications, radio broadcasts, and site-specific installations. I hold a BA in Film Theory & Criticism at Muhlenberg College and a MA at the Center for Curatorial Studies, Bard College (2021).
+           <br><br>
+           Website accessibility: This site is in the process of including alt-text descriptions.
          </span>
 
          <br><br>

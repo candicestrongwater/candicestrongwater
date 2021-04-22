@@ -3,6 +3,18 @@ $(document).ready(function() {
 
   /* SHOW CURSOR IMAGE ON HOVER - EXHIBITIONS*/
 
+    var $exb0 = $('.hover__image--exb-0');
+    $exb0.hide();
+    $('.exb-0').mousemove(function(e) {
+        $exb0.stop(1, 1).fadeIn();
+        $('.hover__image--exb-0').offset({
+            top: 220 + e.pageY - $exb0.outerHeight(),
+            left: 180 + e.pageX - ($exb0.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $exb0.hide();
+    });
+
     var $exb1 = $('.hover__image--exb-1');
     $exb1.hide();
     $('.exb-1').mousemove(function(e) {
