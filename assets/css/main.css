@@ -220,13 +220,36 @@ a , .project-text-link span {
   margin-bottom: 20px;
 }
 
+/* IMAGE CENTERED 50 */
+
 .project__image--half {
   width: 50%;
   text-align: center;
   display: block;
 }
 
+/* TWO COL IMAGES (SIDE-BY-SIDE) */
 
+.two-col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .two-col img {
+  width: 100%;
+} */
+
+.project__image--two-up {
+  flex: 0 0 50%;
+}
+
+.project__image--two-up:first-child {
+  padding-right: 10px;
+}
+
+.project__image--two-up:last-child {
+  padding-left: 10px;
+}
 
 
 /* HOVER SHOW CURSOR IMAGE */

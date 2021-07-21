@@ -146,6 +146,13 @@ and (max-width : 645px) {
   width: 100%;
 }
 
+/* FULL WIDTH 2 COL IMAGES */
+
+.project__image--two-up {
+  flex: 0 0 100%;
+  padding: 0 !important;
+}
+
 }
 
 
