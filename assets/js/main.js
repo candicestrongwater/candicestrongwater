@@ -18,7 +18,7 @@ connectedCallback() {
 
       <div class="flex-item--right header-item--right">
         <a class="nav-link nav-link--exhibitions" href="./index.html">Exhibitions & Programs</a>
-        <!-- <a class="nav-link nav-link--programs" href="./writing.html">Writing</a> -->
+        <a class="nav-link nav-link--programs" href="./writing.html">Writing</a>
         <span class="nav-link nav-link--about">About</span>
       </div>
 
@@ -27,16 +27,10 @@ connectedCallback() {
     <div class="popup__container--about">
       <div class="flex-item--left about-item--left">
          <span class="about-text-lc">
-           The work included here is a selection of projects spanning exhibitions, public programs, oral histories, artist publications, radio broadcasts, and site-specific installations.
+           Candice Strongwater is an independent curator and creative project manager based in Queens. She has organized a wide range of public programs and exhibitions, from monographic surveys and radio broadcasts to site-specific installations. From 2015 to 2020, she served as Associate Curator and Head of Public Programs at Red Bull Arts, co-curating <span class="body-ital">Total Proof: The Gala Committee 1995–97</span> (2016), <span class="body-ital">Gretchen Bender: So Much Deathless</span> (2019), and <span class="body-ital">Rammellzee: Racing for Thunder (2018)</span>.
            <br><br>
-           Website accessibility: This site is in the process of including alt-text descriptions.
+           At the intersection of media history, architecture, and alternative education, her independent research focuses on the classroom as a site of governance within the U.S. public school system, as well as creative practices that challenge the rationalization of education. Currently, she serves as the Manager of Research & Curatorial Initiatives at SITU Research, a visual investigations practice that provides forensic evidence to lawyers, activists, and journalists addressing human rights violations.
          </span>
-
-         <br><br>
-
-         <!-- <a class="nav-link" href="mailto:strongwater.candice@gmail.com" target="_blank">EMAIL</a>
-         <br>
-         <a class="nav-link" href="https://www.instagram.com/cancode/?hl=en" target="_blank">INSTAGRAM</a> -->
 
       </div>
 

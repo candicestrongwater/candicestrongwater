@@ -18,7 +18,11 @@ body {
 
 .body-ital {
   font-style: italic;
-  letter-spacing: .5px;
+  letter-spacing: .1px;
+}
+
+p.body-ital {
+  display: inline-block;
 }
 
 .caption-ital {
@@ -42,6 +46,8 @@ a , .project-text-link span {
 .text-link--external, .caption-link--external {
   text-decoration: underline;
 }
+
+
 
 .project-text-link--exhibitions span:hover , .nav-link:hover , .title-text-link--external:hover , .text-link--external:hover, .caption-link--external:hover {
   color: red !important;
@@ -69,7 +75,8 @@ a , .project-text-link span {
   color: #00ff44 !important;
 }
 
-.not-active {
+.not-active:hover {
+  color: white !important;
   cursor: default !important;
 }
 

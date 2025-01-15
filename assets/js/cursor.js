@@ -3,6 +3,42 @@ $(document).ready(function() {
 
   /* SHOW CURSOR IMAGE ON HOVER - EXHIBITIONS*/
 
+    var $exb19 = $('.hover__image--exb-19');
+    $exb19.hide();
+    $('.exb-19').mousemove(function(e) {
+        $exb19.stop(1, 1).fadeIn();
+        $('.hover__image--exb-19').offset({
+            top: 220 + e.pageY - $exb19.outerHeight(),
+            left: 180 + e.pageX - ($exb19.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $exb19.hide();
+    });
+
+    var $exb17 = $('.hover__image--exb-17');
+    $exb17.hide();
+    $('.exb-17').mousemove(function(e) {
+        $exb17.stop(1, 1).fadeIn();
+        $('.hover__image--exb-17').offset({
+            top: 220 + e.pageY - $exb17.outerHeight(),
+            left: 180 + e.pageX - ($exb17.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $exb17.hide();
+    });
+
+    var $exb16 = $('.hover__image--exb-16');
+    $exb16.hide();
+    $('.exb-16').mousemove(function(e) {
+        $exb16.stop(1, 1).fadeIn();
+        $('.hover__image--exb-16').offset({
+            top: 220 + e.pageY - $exb16.outerHeight(),
+            left: 180 + e.pageX - ($exb16.outerWidth()/2)
+        });
+    }).mouseleave(function() {
+        $exb16.hide();
+    });
+
     var $exb0 = $('.hover__image--exb-0');
     $exb0.hide();
     $('.exb-0').mousemove(function(e) {
