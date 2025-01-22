@@ -17,7 +17,7 @@ connectedCallback() {
       </div>
 
       <div class="flex-item--right header-item--right">
-        <a class="nav-link nav-link--exhibitions" href="./index.html">Exhibitions & Programs</a>
+        <a class="nav-link nav-link--exhibitions" href="./index.html">Work</a>
         <a class="nav-link nav-link--programs" href="./writing.html">Writing</a>
         <span class="nav-link nav-link--about">About</span>
       </div>
